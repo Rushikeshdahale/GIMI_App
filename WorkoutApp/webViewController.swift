@@ -41,6 +41,7 @@ class webViewController: UIViewController, WKNavigationDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Do work hard")
         initializeWebView()
     }
     
